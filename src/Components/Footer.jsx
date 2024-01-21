@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer>
-      <div className="max-w-7xl pb-3 pt-10 flex flex-col justify-center items-center gap-7 bg-slate-200 mx-auto px-4">
+    <footer className="bg-slate-200">
+      <div className="max-w-7xl pb-3 pt-10 flex flex-col justify-center items-center gap-7 mx-auto px-4">
         <div className="flex justify-center items-center gap-7 bg-slate-200 mx-auto px-4">
           <h2 className="font-bold text-lg">
             جواهر <span className="text-yellow-400">گلدن</span>
