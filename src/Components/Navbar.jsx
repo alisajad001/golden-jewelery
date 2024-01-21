@@ -12,11 +12,11 @@ function Navbar() {
           <Link to="/" className="transition hover:text-black">
             خانه
           </Link>
-          <Link to="/" className="transition hover:text-black">
+          <Link to="/rings" className="transition hover:text-black">
             انگشترها
           </Link>
           <Link
-            to="/"
+            to="/contact"
             className="transition text-white bg-yellow-500 hover:bg-yellow-400 py-2 px-4 rounded-lg"
           >
             ارتباط با ما

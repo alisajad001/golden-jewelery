@@ -1,3 +1,4 @@
+import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Rings from "./Components/Rings";
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/rings" element={<Rings />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>

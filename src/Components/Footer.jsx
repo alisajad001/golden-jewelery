@@ -10,13 +10,13 @@ function Footer() {
           </h2>
           <div className="w-[1px] h-6 bg-slate-400"></div>
           <div className="flex gap-5 items-center text-sm text-slate-500 font-medium">
-            <Link href="/" className="transition hover:text-black">
+            <Link to="/" className="transition hover:text-black">
               خانه
             </Link>
-            <Link href="/" className="transition hover:text-black">
+            <Link to="/rings" className="transition hover:text-black">
               جواهرات
             </Link>
-            <Link href="/" className="transition hover:text-black">
+            <Link to="/contact" className="transition hover:text-black">
               ارتباط با ما
             </Link>
           </div>
