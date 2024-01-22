@@ -1,8 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-  font-family: "Vazirmatn", sans-serif;
+  font-family: Raleway, sans-serif;
+}
+
+.main-section {
+  background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.705),
+      rgba(250, 183, 0, 0.801)
+    ),
+    url("./assets/linus-mimietz-75rvASm_uKY-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
