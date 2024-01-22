@@ -2,7 +2,7 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Rings from "./Components/Rings";
-import Navbar from "./components/Navbar";
+import Navbar from "./Components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
