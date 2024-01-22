@@ -10,7 +10,7 @@ function Navbar() {
     <nav className="border-b">
       <div className="max-w-7xl mx-auto h-20 px-5 flex justify-between items-center">
         <h1 className="font-bold text-lg">
-          <span className="text-yellow-400">Golden</span> Jewelery
+          <span className="text-yellow-400">Pathan</span> Jewelery
         </h1>
 
         <div className="hidden sm:flex gap-5 items-center text-sm text-gray-600 font-semibold uppercase">
