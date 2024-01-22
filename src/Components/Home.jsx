@@ -4,10 +4,10 @@ function Home() {
   return (
     <main className="main-section">
       <section className="max-w-7xl mx-auto h-screen flex flex-col justify-center items-center px-6">
-        <h1 className="text-3xl md:text-6xl font-bold text-white">
+        <h1 className="text-3xl md:text-7xl text-white">
           Welcome to <span className="text-yellow-400">Golden</span> Jewelery
         </h1>
-        <p className="text-slate-200 max-w-2xl md:text-center md:text-xl mt-6">
+        <p className="text-white font-light max-w-2xl md:text-center md:text-xl mt-6">
           Find the best jewelery for you and your family. We have a wide range
           of rings, necklaces, earrings, bracelets and more.
         </p>
