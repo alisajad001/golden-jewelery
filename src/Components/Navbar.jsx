@@ -5,21 +5,21 @@ function Navbar() {
     <nav className="border-b">
       <div className="max-w-7xl mx-auto h-20 px-5 flex justify-between items-center">
         <h1 className="font-bold text-lg">
-          جواهر <span className="text-yellow-400">گلدن</span>
+          <span className="text-yellow-400">Golden</span> Jewelery
         </h1>
 
-        <div className="flex gap-5 items-center text-sm text-gray-500 font-medium">
+        <div className="flex gap-5 items-center text-sm text-gray-600 font-semibold uppercase">
           <Link to="/" className="transition hover:text-black">
-            خانه
+            Home
           </Link>
           <Link to="/rings" className="transition hover:text-black">
-            انگشترها
+            Rings
           </Link>
           <Link
             to="/contact"
             className="transition text-white bg-yellow-500 hover:bg-yellow-400 py-2 px-4 rounded-lg"
           >
-            ارتباط با ما
+            Contact
           </Link>
         </div>
       </div>
